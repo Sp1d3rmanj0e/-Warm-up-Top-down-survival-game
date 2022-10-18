@@ -2,7 +2,9 @@
   "resources": [
     {"id":{"name":"MACROS","path":"objects/MACROS/MACROS.yy",},"order":4,},
     {"id":{"name":"spr_resources","path":"sprites/spr_resources/spr_resources.yy",},"order":1,},
+    {"id":{"name":"spr_ground","path":"sprites/spr_ground/spr_ground.yy",},"order":2,},
     {"id":{"name":"obj_stats","path":"objects/obj_stats/obj_stats.yy",},"order":3,},
+    {"id":{"name":"ts_ground","path":"tilesets/ts_ground/ts_ground.yy",},"order":0,},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"order":0,},
     {"id":{"name":"spr_player","path":"sprites/spr_player/spr_player.yy",},"order":0,},
     {"id":{"name":"obj_resources","path":"objects/obj_resources/obj_resources.yy",},"order":2,},
