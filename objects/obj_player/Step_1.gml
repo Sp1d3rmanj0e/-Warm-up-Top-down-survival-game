@@ -6,3 +6,4 @@ keyDown = keyboard_check(vk_down);
 
 // Complex player input
 keyShift = keyboard_check(vk_shift);
+
