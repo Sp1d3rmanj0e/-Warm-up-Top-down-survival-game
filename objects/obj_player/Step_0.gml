@@ -25,31 +25,31 @@ var bbox_side = 0;
 */
 
 // Horizontal Collision
+
 if (hsp > 0) bbox_side = bbox_right; else bbox_side = bbox_left;
-switch (tilemap_get_at_pixel(tilemap,bbox_side+hsp,bbox_top))
+if (tilemap_get_at_pixel(tilemap,bbox_side+hsp,bbox_top) > curElevation) 
+|| (tilemap_get_at_pixel(tilemap,bbox_side+hsp,bbox_bottom) > curElevation)
 {
-	case 5:
-	case curElevation:
-	break;
-	
-	default:
-		if (tilemap_get_at_pixel(tilemap,bbox_side+hsp,bbox_top) != 2) || (tilemap_get_at_pixel(tilemap,bbox_side+hsp,bbox_bottom) != 2)
-		{
-			if (hsp > 0) x = x - (x mod 64) + 63 - (bbox_right - x);
-			else x = x - (x mod 64) - (bbox_left - x);
-			hsp = 0;
-		}
+	if (hsp > 0) x = x - (x mod 64) + 63 - (bbox_right - x);
+	else x = x - (x mod 64) - (bbox_left - x);
+	hsp = 0;
 }
-
-
 
 // Vertical Collision
 if (vsp > 0) bbox_side = bbox_bottom; else bbox_side = bbox_top;
-if (tilemap_get_at_pixel(tilemap,bbox_left,bbox_side+vsp) != 2) || (tilemap_get_at_pixel(tilemap,bbox_right,bbox_side+vsp) != 2)
+if (tilemap_get_at_pixel(tilemap,bbox_left,bbox_side+vsp) > curElevation) 
+|| (tilemap_get_at_pixel(tilemap,bbox_right,bbox_side+vsp) > curElevation)
 {
 	if (vsp > 0) y = y - (y mod 64) + 63 - (bbox_bottom - y);
 	else y = y - (y mod 64) - (bbox_top - y);
 	vsp = 0;
+}
+
+curElevation = tilemap_get_at_pixel(tilemap,x,y);
+
+if (tilemap_get_at_pixel(tilemap,x,y) == 0)
+{
+	curElevation = 3;
 }
 #endregion collisions
 
