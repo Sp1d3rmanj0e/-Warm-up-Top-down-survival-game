@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMTileSet",
+  "resourceVersion": "1.0",
+  "name": "ts_elevations",
   "spriteId": {
     "name": "spr_elevations",
     "path": "sprites/spr_elevations/spr_elevations.yy",
@@ -41,8 +44,4 @@
     "name": "Tile Sets",
     "path": "folders/Tile Sets.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "ts_elevations",
-  "tags": [],
-  "resourceType": "GMTileSet",
 }
