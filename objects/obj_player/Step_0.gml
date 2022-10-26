@@ -22,9 +22,6 @@ else if (hsp < 0) // If moving left
 	image_xscale = -1;
 }
 
-//movement based animation changes
-
-
 
 // Initiate movement
 x += hsp;
