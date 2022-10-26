@@ -45,11 +45,13 @@ if (tilemap_get_at_pixel(tilemap,bbox_left,bbox_side+vsp) > curElevation)
 	vsp = 0;
 }
 
-curElevation = tilemap_get_at_pixel(tilemap,x,y);
+// Elevation Change
 
-if (tilemap_get_at_pixel(tilemap,x,y) == 0)
+curElevation = tilemap_get_at_pixel(tilemap,x,y); // get current elevation
+
+if (tilemap_get_at_pixel(tilemap,x,y) == 0) // let 0 be a staircase
 {
-	curElevation = 3;
+	curElevation = 3; // set elevation to max height to allow for a change to any elevation
 }
 #endregion collisions
 
