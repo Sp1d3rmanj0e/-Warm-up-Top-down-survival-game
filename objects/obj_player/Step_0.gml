@@ -55,7 +55,13 @@ var br = tilemap_get_at_pixel(tilemap,bbox_left,bbox_bottom);
 
 curElevation = max(tl,tr,bl,br); // get current elevation
 
-
+var elevDiff = preElevation - curElevation;
+if (elevDiff >= 2) && (curElevation != 0)
+{
+	hp -= 10 * (elevDiff-1);
+	show_debug_message(elevDiff);
+}
+preElevation = curElevation;
 
 if (tilemap_get_at_pixel(tilemap,x,y) == 0) // let 0 be a staircase
 {

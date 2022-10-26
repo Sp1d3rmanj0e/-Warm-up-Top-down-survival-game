@@ -28,7 +28,7 @@
 -70,-2147483648,1,0,-11,3,-8,-2147483648,1,0,-3,3,-5,4,-4,3,1,4,-8,-2147483648,4,0,
 4,0,4,-5,2,-3,4,2,3,1,-8,-2147483648,1,0,-4,2,3,4,0,0,-5,4,
 1,1,-8,-2147483648,1,0,-4,4,-7,1,2,4,1,-9,-2147483648,-13,1,-6,-2147483648,-3,0,-13,
-1,-19,-2147483648,-3,0,-28,-2147483648,],},"visible":false,"depth":200,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
+1,-19,-2147483648,-3,0,-28,-2147483648,],},"visible":true,"depth":200,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
     {"resourceType":"GMRTileLayer","resourceVersion":"1.1","name":"ground","tilesetId":{"name":"ts_ground","path":"tilesets/ts_ground/ts_ground.yy",},"x":0,"y":0,"tiles":{"TileDataFormat":1,"SerialiseWidth":22,"SerialiseHeight":12,"TileCompressedData":[
 -71,-2147483648,-11,2,-9,-2147483648,-3,2,-5,1,-4,2,1,1,-9,-2147483648,3,1,4,1,-5,5,
 -3,1,2,2,8,-9,-2147483648,7,5,2,5,2,1,4,4,-5,1,1,5,-9,-2147483648,-4,

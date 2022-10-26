@@ -9,3 +9,7 @@ normalSpeed = 5;
 // Tilemap variables
 tilemap = layer_tilemap_get_id("elevations");
 curElevation = 1;
+preElevation = curElevation;
+
+//health and stats
+hp = 100;
