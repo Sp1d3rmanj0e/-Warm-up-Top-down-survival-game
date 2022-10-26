@@ -47,7 +47,15 @@ if (tilemap_get_at_pixel(tilemap,bbox_left,bbox_side+vsp) > curElevation)
 
 // Elevation Change
 
-curElevation = tilemap_get_at_pixel(tilemap,x,y); // get current elevation
+// Get references for all corners
+var tl = tilemap_get_at_pixel(tilemap,bbox_left,bbox_top);
+var tr = tilemap_get_at_pixel(tilemap,bbox_right,bbox_top);
+var bl = tilemap_get_at_pixel(tilemap,bbox_left,bbox_bottom);
+var br = tilemap_get_at_pixel(tilemap,bbox_left,bbox_bottom);
+
+curElevation = max(tl,tr,bl,br); // get current elevation
+
+
 
 if (tilemap_get_at_pixel(tilemap,x,y) == 0) // let 0 be a staircase
 {
