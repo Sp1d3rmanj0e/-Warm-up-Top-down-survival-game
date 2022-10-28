@@ -7,6 +7,8 @@
     {"id":{"name":"ts_elevations","path":"tilesets/ts_elevations/ts_elevations.yy",},"order":2,},
     {"id":{"name":"spr_resources","path":"sprites/spr_resources/spr_resources.yy",},"order":1,},
     {"id":{"name":"spr_ground","path":"sprites/spr_ground/spr_ground.yy",},"order":2,},
+    {"id":{"name":"obj_sapTree","path":"objects/obj_sapTree/obj_sapTree.yy",},"order":5,},
+    {"id":{"name":"spr_sapTreePlaceholder","path":"sprites/spr_sapTreePlaceholder/spr_sapTreePlaceholder.yy",},"order":5,},
     {"id":{"name":"obj_stats","path":"objects/obj_stats/obj_stats.yy",},"order":3,},
     {"id":{"name":"ts_collision","path":"tilesets/ts_collision/ts_collision.yy",},"order":1,},
     {"id":{"name":"ts_ground","path":"tilesets/ts_ground/ts_ground.yy",},"order":0,},
