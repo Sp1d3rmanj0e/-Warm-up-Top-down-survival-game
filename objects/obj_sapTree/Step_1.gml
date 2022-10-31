@@ -1,15 +1,18 @@
 /// @description Animations
 
+// If in contact with the player
+contact = place_meeting(x,y,obj_player);
 
-if (place_meeting(x,y,obj_player))
+if (contact)
 {
-	alpha = 0.5;
-	with (obj_player) image_alpha = 0.5;
+	image_alpha = 0.75;
 }
 else
 {
-	alpha = 1;
-	with (obj_player) image_alpha = 1;
+	image_alpha = 1;
 }
 
-image_alpha = alpha;
+if (keyboard_check_pressed(ord("E")))
+{
+	tapped = true;
+}
