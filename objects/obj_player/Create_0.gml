@@ -13,3 +13,6 @@ preElevation = curElevation;
 
 //health and stats
 hp = 100;
+
+// counter variables
+hungerchunk_counter = 0;

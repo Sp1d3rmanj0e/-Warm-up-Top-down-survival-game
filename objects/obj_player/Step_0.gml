@@ -80,7 +80,7 @@ else if (hsp < 0) // If moving left
 }
 
 
-
+if keyboard_check_pressed(ord("P")) {global.hunger -= 10;}
 
 
 // Initiate movement
