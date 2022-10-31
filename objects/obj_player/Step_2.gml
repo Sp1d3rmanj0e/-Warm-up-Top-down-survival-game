@@ -19,9 +19,9 @@ if (_inst != noone)
 if (global.hunger <= 0)
 {
 	hungerchunk_counter += 1/room_speed;
-	if (hungerchunk_counter >= 5)
+	if (hungerchunk_counter >= 2.5)
 	{
 		hungerchunk_counter = 0;
-		hp -= 10;
+		hp -= 5;
 	}
 }
