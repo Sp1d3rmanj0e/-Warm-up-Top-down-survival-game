@@ -6,6 +6,7 @@
     {"id":{"name":"Campfire","path":"sprites/Campfire/Campfire.yy",},"order":3,},
     {"id":{"name":"Log","path":"sprites/Log/Log.yy",},"order":0,},
     {"id":{"name":"Sap","path":"sprites/Sap/Sap.yy",},"order":1,},
+    {"id":{"name":"Tree","path":"sprites/Tree/Tree.yy",},"order":6,},
     {"id":{"name":"Stone","path":"sprites/Stone/Stone.yy",},"order":2,},
     {"id":{"name":"MACROS","path":"objects/MACROS/MACROS.yy",},"order":4,},
     {"id":{"name":"ts_elevations","path":"tilesets/ts_elevations/ts_elevations.yy",},"order":2,},
@@ -19,6 +20,7 @@
     {"id":{"name":"obj_resourceSpawn","path":"objects/obj_resourceSpawn/obj_resourceSpawn.yy",},"order":1,},
     {"id":{"name":"spr_player_idlefront","path":"sprites/spr_player_idlefront/spr_player_idlefront.yy",},"order":1,},
     {"id":{"name":"spr_elevations","path":"sprites/spr_elevations/spr_elevations.yy",},"order":4,},
+    {"id":{"name":"StoneWIP","path":"sprites/StoneWIP/StoneWIP.yy",},"order":5,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
   "Options": [
