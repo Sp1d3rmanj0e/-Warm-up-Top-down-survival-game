@@ -1,1 +1,1 @@
-image_index = irandom(image_number-1);
+sprite_index = choose(spr_stone,spr_sap,spr_log);

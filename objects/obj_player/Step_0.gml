@@ -55,6 +55,7 @@ var br = tilemap_get_at_pixel(tilemap,bbox_left,bbox_bottom);
 
 curElevation = max(tl,tr,bl,br); // get current elevation
 
+// Fall damage
 var elevDiff = preElevation - curElevation;
 if (elevDiff >= 2) && (curElevation != 0)
 {
